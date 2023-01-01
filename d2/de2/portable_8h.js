@@ -1,6 +1,5 @@
 var portable_8h =
 [
-    [ "portable_off_t", "d2/de2/portable_8h.html#a25423a5b429a3ee0610315d93938bd0b", null ],
     [ "checkForExecutable", "d2/de2/portable_8h.html#a39228795dec07d8121645b0348e91712", null ],
     [ "commandExtension", "d2/de2/portable_8h.html#acf75def6ec394875d4a3c380ffc301b7", null ],
     [ "correct_path", "d2/de2/portable_8h.html#a7b0d9dbb919f445905c42fabb783c6f9", null ],
@@ -8,12 +7,12 @@ var portable_8h =
     [ "fclose", "d2/de2/portable_8h.html#af099fa6239b4961887192d8eadfd2a44", null ],
     [ "fileSystemIsCaseSensitive", "d2/de2/portable_8h.html#a8c6ba49e769f2990693fa40528d3c50e", null ],
     [ "fopen", "d2/de2/portable_8h.html#a4dbb08c3de409bd1a73be3da6d93ac57", null ],
-    [ "fseek", "d2/de2/portable_8h.html#a508bfa22b32f24c3920ab65097fd9d59", null ],
-    [ "ftell", "d2/de2/portable_8h.html#aa76fa3c0c598edac56b9fd5aa2aa1c30", null ],
     [ "getenv", "d2/de2/portable_8h.html#ae1a7516287ca7c75eebc3fa7aa12e970", null ],
     [ "getSysElapsedTime", "d2/de2/portable_8h.html#a248b5a87e07edc01e5ae424b6597142f", null ],
     [ "ghostScriptCommand", "d2/de2/portable_8h.html#a4c4c43977edb27e33f873fbacf11d528", null ],
     [ "isAbsolutePath", "d2/de2/portable_8h.html#a08dc4d7f652408d7fc2eaba792796cb1", null ],
+    [ "openInputStream", "d2/de2/portable_8h.html#a0579eaf8c245a77f1e804a3cf1b0aa73", null ],
+    [ "openOutputStream", "d2/de2/portable_8h.html#a230fceefc8f9abd1e8d4be71d7eef281", null ],
     [ "pathListSeparator", "d2/de2/portable_8h.html#a33ec52ac55c4d58e0748239920ee3e14", null ],
     [ "pathSeparator", "d2/de2/portable_8h.html#a0f30be3f0aed0b88804816f3e6310ee4", null ],
     [ "pclose", "d2/de2/portable_8h.html#a6cde8cab8c3dc3397ea5c6030fbf6e84", null ],
@@ -28,8 +27,6 @@ var portable_8h =
     [ "sleep", "d2/de2/portable_8h.html#a7e7faa33c4307edc0f95a742bad3a736", null ],
     [ "strnstr", "d2/de2/portable_8h.html#ada69eeb681c8f036f6a3327478acbd75", null ],
     [ "system", "d2/de2/portable_8h.html#ab30a636186b72a67d57e9f7f1e917e99", null ],
-    [ "sysTimerStart", "d2/de2/portable_8h.html#ada9653ce1cfc72cc4923aac726435962", null ],
-    [ "sysTimerStop", "d2/de2/portable_8h.html#a3131c9d07ca7ce1ad22542ce9e417068", null ],
     [ "unlink", "d2/de2/portable_8h.html#a394e935b6fd1899b26f8987f89a4cbfb", null ],
     [ "unsetenv", "d2/de2/portable_8h.html#ac2e29048cffc72c3bed439cff5b02cd4", null ]
 ];

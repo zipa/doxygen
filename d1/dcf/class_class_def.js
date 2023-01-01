@@ -11,6 +11,7 @@ var class_class_def =
       [ "Service", "d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939aaf2c9d4d2eaa6e6a614d7bd164a29c0e", null ],
       [ "Singleton", "d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a34f6a5dd42307d62a5fe3038b245a667", null ]
     ] ],
+    [ "addGroupedInheritedMembers", "d1/dcf/class_class_def.html#ac8ed300bfb36eefd34b5ba9f165ff880", null ],
     [ "anchor", "d1/dcf/class_class_def.html#a7016b59e40eefbd4e9a1cc6fa43e0bff", null ],
     [ "baseClasses", "d1/dcf/class_class_def.html#a38001a11a297629e363c0db5b1968ab3", null ],
     [ "categoryOf", "d1/dcf/class_class_def.html#a81969b4626cb26cd6061f6c54d051827", null ],
@@ -35,6 +36,7 @@ var class_class_def =
     [ "getMemberListFileName", "d1/dcf/class_class_def.html#ac620ac7f22f673e84410b1ceca0af3be", null ],
     [ "getMemberLists", "d1/dcf/class_class_def.html#a283e841b3eb34d0ba2e0e106a4e3ad59", null ],
     [ "getOutputFileBase", "d1/dcf/class_class_def.html#a12a8f241e90a0cb0bdf19c27bf2025b0", null ],
+    [ "getQualifiers", "d1/dcf/class_class_def.html#a570d8dcfdd144e17226ca785e58b15b7", null ],
     [ "getReference", "d1/dcf/class_class_def.html#a5ca8b91f73e7989abdceb8958dcb0b59", null ],
     [ "getSourceFileBase", "d1/dcf/class_class_def.html#ad14ea5ae079a471daac0a502e2979f5d", null ],
     [ "getTemplateBaseClassNames", "d1/dcf/class_class_def.html#aaf3dc7118f6d91b7bc741e29f45215b1", null ],
@@ -49,7 +51,7 @@ var class_class_def =
     [ "insertTemplateInstance", "d1/dcf/class_class_def.html#a9cdbbcba038909c2ae9de31c14e30d3b", null ],
     [ "isAbstract", "d1/dcf/class_class_def.html#a12dd6a6b0ac63233a82327a8b2d2d9f2", null ],
     [ "isAccessibleMember", "d1/dcf/class_class_def.html#aa4f8aa899e9bf12dacd3442c9647bac4", null ],
-    [ "isBaseClass", "d1/dcf/class_class_def.html#aa6cc7f565f801818dace174a6b4d73f3", null ],
+    [ "isBaseClass", "d1/dcf/class_class_def.html#a3e118df515565a29662b41396ee66579", null ],
     [ "isCSharp", "d1/dcf/class_class_def.html#a8bfbc9a9cc5af4db69a0b5a796a28d38", null ],
     [ "isEmbeddedInOuterScope", "d1/dcf/class_class_def.html#ac86d2e29cb6233d073aa4c9b5ea726af", null ],
     [ "isExtension", "d1/dcf/class_class_def.html#a8a066b13127c13f73ae916af7d883ea1", null ],
@@ -91,5 +93,15 @@ var class_class_def =
     [ "usedFiles", "d1/dcf/class_class_def.html#ab6ba54124ee74df07036e2473579264d", null ],
     [ "usedImplementationClasses", "d1/dcf/class_class_def.html#a4a15dff9d9567c126433228fff77837b", null ],
     [ "visibleInParentsDeclList", "d1/dcf/class_class_def.html#a1a79f778ae2201c52ee19c048763d4fa", null ],
-    [ "writeDeclarationLink", "d1/dcf/class_class_def.html#acd75a76f95d8eacddd4afbb7dc8693a2", null ]
+    [ "writeDeclaration", "d1/dcf/class_class_def.html#acfcf16726b8d952b1c76d43adfbef197", null ],
+    [ "writeDeclarationLink", "d1/dcf/class_class_def.html#acd75a76f95d8eacddd4afbb7dc8693a2", null ],
+    [ "writeDocumentation", "d1/dcf/class_class_def.html#a283ca4e39a593316c8c6c83085088900", null ],
+    [ "writeDocumentationForInnerClasses", "d1/dcf/class_class_def.html#afd404f2052b5c688bf0815741a290842", null ],
+    [ "writeInlineDocumentation", "d1/dcf/class_class_def.html#af59b44de9052b4e62482853fdb7a514a", null ],
+    [ "writeMemberDeclarations", "d1/dcf/class_class_def.html#ad30856f1775b229f941679aaaf55e239", null ],
+    [ "writeMemberList", "d1/dcf/class_class_def.html#a30391896721a6454f35d69ef5457080b", null ],
+    [ "writeMemberPages", "d1/dcf/class_class_def.html#a21e64cf1626ca35924f114aaadac8009", null ],
+    [ "writeQuickMemberLinks", "d1/dcf/class_class_def.html#a6f85844c1b5d67ca6110b3c48053bc77", null ],
+    [ "writeSummaryLinks", "d1/dcf/class_class_def.html#a1e4c88be7cbea1cd3c46833f69843612", null ],
+    [ "writeTagFile", "d1/dcf/class_class_def.html#af5fb9d775ecdb41ff87abcc2eb44f105", null ]
 ];

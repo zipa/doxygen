@@ -2,6 +2,7 @@ var class_class_def_alias_impl =
 [
     [ "ClassDefAliasImpl", "d0/d2b/class_class_def_alias_impl.html#a6a11e5ccd30b61bd7f5b7df76ce29b39", null ],
     [ "~ClassDefAliasImpl", "d0/d2b/class_class_def_alias_impl.html#a10b7b2c885db2646235005f481542ed4", null ],
+    [ "addGroupedInheritedMembers", "d0/d2b/class_class_def_alias_impl.html#adaf5c6362990856d4105a88d692f2ac3", null ],
     [ "anchor", "d0/d2b/class_class_def_alias_impl.html#ad77cf1695a5ec4ad60d81b18ccbea870", null ],
     [ "baseClasses", "d0/d2b/class_class_def_alias_impl.html#a56326ddc8f9e79340b9883def387a70e", null ],
     [ "categoryOf", "d0/d2b/class_class_def_alias_impl.html#a5fce69458698cbbed36402569808c0c0", null ],
@@ -28,6 +29,7 @@ var class_class_def_alias_impl =
     [ "getMemberListFileName", "d0/d2b/class_class_def_alias_impl.html#ad0f303124670bc70948cc3970c7d5556", null ],
     [ "getMemberLists", "d0/d2b/class_class_def_alias_impl.html#a81db6b4eaf13a10f603c4bc6ea6e03af", null ],
     [ "getOutputFileBase", "d0/d2b/class_class_def_alias_impl.html#aa9e27c43e798f0ccc6b9728ec813681a", null ],
+    [ "getQualifiers", "d0/d2b/class_class_def_alias_impl.html#aaad39255b8fcfbacd65f380aad12e3c2", null ],
     [ "getReference", "d0/d2b/class_class_def_alias_impl.html#ae884da09744b00dcda74fb509833af37", null ],
     [ "getSourceFileBase", "d0/d2b/class_class_def_alias_impl.html#aa1321012767eb292a1043561c67504ac", null ],
     [ "getTemplateBaseClassNames", "d0/d2b/class_class_def_alias_impl.html#a08ecb7b3653752f5699b135eb8c7bffb", null ],
@@ -42,7 +44,7 @@ var class_class_def_alias_impl =
     [ "insertTemplateInstance", "d0/d2b/class_class_def_alias_impl.html#ae285716c5b364a7c38dda236b78948ae", null ],
     [ "isAbstract", "d0/d2b/class_class_def_alias_impl.html#a087e4076796ba4779c4bc5ed33a7f4c6", null ],
     [ "isAccessibleMember", "d0/d2b/class_class_def_alias_impl.html#a02f1e43ba66231ac0b7aa3e6cd98717e", null ],
-    [ "isBaseClass", "d0/d2b/class_class_def_alias_impl.html#a9e188bd95d4036591e8a6bbb0fe3f4fb", null ],
+    [ "isBaseClass", "d0/d2b/class_class_def_alias_impl.html#a1ee21abaeac21d3322d6c73b37bbf489", null ],
     [ "isCSharp", "d0/d2b/class_class_def_alias_impl.html#ac95c59910940c1c07ab93c7b05cbd82c", null ],
     [ "isEmbeddedInOuterScope", "d0/d2b/class_class_def_alias_impl.html#aeff98e9949f956688cd08ec9a90a1322", null ],
     [ "isExtension", "d0/d2b/class_class_def_alias_impl.html#a33c6cee35623a88ed3aff2c8362ee461", null ],
@@ -85,5 +87,15 @@ var class_class_def_alias_impl =
     [ "usedFiles", "d0/d2b/class_class_def_alias_impl.html#a3b4a06658e67a742e7c81a51600fa0ed", null ],
     [ "usedImplementationClasses", "d0/d2b/class_class_def_alias_impl.html#a01338755344f52bad7b8b96c8860c79a", null ],
     [ "visibleInParentsDeclList", "d0/d2b/class_class_def_alias_impl.html#a8426dba6a9f40ca12d11c5b993aa0df1", null ],
-    [ "writeDeclarationLink", "d0/d2b/class_class_def_alias_impl.html#a99cf83b3a5598e1babe6c168b3f13272", null ]
+    [ "writeDeclaration", "d0/d2b/class_class_def_alias_impl.html#ac8339e8e4ffaec4775c382a9a195a73e", null ],
+    [ "writeDeclarationLink", "d0/d2b/class_class_def_alias_impl.html#a99cf83b3a5598e1babe6c168b3f13272", null ],
+    [ "writeDocumentation", "d0/d2b/class_class_def_alias_impl.html#a9c880798ab6a8b58969f84951bb8e1a0", null ],
+    [ "writeDocumentationForInnerClasses", "d0/d2b/class_class_def_alias_impl.html#a6fc340be5fe7acb3408ed8dd3b8091d6", null ],
+    [ "writeInlineDocumentation", "d0/d2b/class_class_def_alias_impl.html#ab9fdb0d92f35ede1687f4a7cc6547707", null ],
+    [ "writeMemberDeclarations", "d0/d2b/class_class_def_alias_impl.html#ab789c960f91f3e99301c95cc12167b92", null ],
+    [ "writeMemberList", "d0/d2b/class_class_def_alias_impl.html#a4efc1886ff43c013458a448b23bb9480", null ],
+    [ "writeMemberPages", "d0/d2b/class_class_def_alias_impl.html#a7cf213b0b8c0578840f7b1334b9a09da", null ],
+    [ "writeQuickMemberLinks", "d0/d2b/class_class_def_alias_impl.html#ab4fd830ba3815cc674b2156fa7cc7a8d", null ],
+    [ "writeSummaryLinks", "d0/d2b/class_class_def_alias_impl.html#af4988cf4ef6d9252af67b7cc6719cb4c", null ],
+    [ "writeTagFile", "d0/d2b/class_class_def_alias_impl.html#aa8c1fe87748a4432b37b61cdef9b737f", null ]
 ];

@@ -98,6 +98,9 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotrunner.cpp"
   Node37 -> Node26 [color="steelblue1",style="solid"];
   Node37 -> Node39 [color="steelblue1",style="solid"];
   Node39 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node39 -> Node11 [color="steelblue1",style="solid"];
+  Node39 -> Node30 [color="steelblue1",style="solid"];
+  Node39 -> Node34 [color="steelblue1",style="solid"];
   Node39 -> Node12 [color="steelblue1",style="solid"];
   Node37 -> Node40 [color="steelblue1",style="solid"];
   Node40 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];
@@ -189,6 +192,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotrunner.cpp"
   Node56 -> Node52 [color="steelblue1",style="solid"];
   Node56 -> Node57 [color="steelblue1",style="solid"];
   Node57 [label="stdint.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node56 -> Node24 [color="steelblue1",style="solid"];
   Node56 -> Node12 [color="steelblue1",style="solid"];
   Node1 -> Node58 [color="steelblue1",style="solid"];
   Node58 [label="dot.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d4a/dot_8h.html",tooltip=" "];
@@ -213,6 +217,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/dotrunner.cpp"
   Node58 -> Node4 [color="steelblue1",style="solid"];
   Node58 -> Node63 [color="steelblue1",style="solid"];
   Node63 [label="doxygen.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da1/doxygen_8h.html",tooltip=" "];
+  Node63 -> Node9 [color="steelblue1",style="solid"];
   Node63 -> Node32 [color="steelblue1",style="solid"];
   Node63 -> Node55 [color="steelblue1",style="solid"];
   Node63 -> Node64 [color="steelblue1",style="solid"];

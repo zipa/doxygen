@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="d6/dc5/struct_search_index_1_1_u_r_l.html" target="_top" xlink:title=" ">
+<g id="a_node1"><a xlink:href="d3/d40/struct_rtf___style___default.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="102,-19 0,-19 0,0 102,0 102,-19"/>
-<text text-anchor="middle" x="51" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SearchIndex::URL</text>
+<text text-anchor="middle" x="51" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Rtf_Style_Default</text>
 </a>
 </g>
 </g>
