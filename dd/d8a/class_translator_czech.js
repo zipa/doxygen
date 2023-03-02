@@ -36,6 +36,7 @@ var class_translator_czech =
     [ "trCompoundReferenceFortran", "dd/d8a/class_translator_czech.html#af340f7c5b07689ffa9707c1ace522996", null ],
     [ "trCompoundReferenceSlice", "dd/d8a/class_translator_czech.html#afb333e7e00357eeb596734f74d9c3d82", null ],
     [ "trCompounds", "dd/d8a/class_translator_czech.html#a638000ab0a52beab29a7346163d992c0", null ],
+    [ "trCompoundType", "dd/d8a/class_translator_czech.html#a8194d9f4b37859adda71264040d7949d", null ],
     [ "trConcept", "dd/d8a/class_translator_czech.html#aca14f92d5706e907bf54e9a9d60512fb", null ],
     [ "trConceptDefinition", "dd/d8a/class_translator_czech.html#ae1d35b4936dd0eab0b245e1cc164449f", null ],
     [ "trConceptDocumentation", "dd/d8a/class_translator_czech.html#a5df43b4ea2ce33ce24174c867b31bf33", null ],
@@ -95,7 +96,6 @@ var class_translator_czech =
     [ "trEnumValue", "dd/d8a/class_translator_czech.html#a3fe382976dcc9d4f4b11ef016e202522", null ],
     [ "trEventDocumentation", "dd/d8a/class_translator_czech.html#a0644f7776c80bce90143f808f6299b7b", null ],
     [ "trEvents", "dd/d8a/class_translator_czech.html#a5411d69f698ce42fcca7d5ed3e9ae7ab", null ],
-    [ "trExampleDocumentation", "dd/d8a/class_translator_czech.html#a0b9ae5758daecc09ccc601d972f3fb79", null ],
     [ "trExamples", "dd/d8a/class_translator_czech.html#aec2387a34264dc6e602bf2765ba797f8", null ],
     [ "trExamplesDescription", "dd/d8a/class_translator_czech.html#a2d627bd24c6e2bb8e5b489ac70e490f1", null ],
     [ "trExceptionDocumentation", "dd/d8a/class_translator_czech.html#ae8c1c60f25a373c53bbdf32f8740702e", null ],
@@ -289,7 +289,7 @@ var class_translator_czech =
     [ "trVariableDocumentation", "dd/d8a/class_translator_czech.html#a38ce49b486e7b3035be083f33287d65c", null ],
     [ "trVariables", "dd/d8a/class_translator_czech.html#a3dc668d74216cc62f14c9166702f5d95", null ],
     [ "trVersion", "dd/d8a/class_translator_czech.html#a74c2788ae879fbf24882f83c23ab3d4a", null ],
-    [ "trVhdlType", "dd/d8a/class_translator_czech.html#a7771749fe0751b96abb2ebf57ddf6d8f", null ],
+    [ "trVhdlType", "dd/d8a/class_translator_czech.html#a00f1354e19cecb1593c49e5b4d51fbb4", null ],
     [ "trWarning", "dd/d8a/class_translator_czech.html#a90945b94973b4e5da0af7019dfa0c40f", null ],
     [ "trWriteList", "dd/d8a/class_translator_czech.html#a76990cacd056f67d91d4fe784c7bcfca", null ]
 ];

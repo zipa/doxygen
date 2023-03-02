@@ -8,7 +8,6 @@ var message_8cpp =
     [ "handle_warn_as_error", "d8/d6a/message_8cpp.html#aed763574c33aa626cd8209d9d681938a", null ],
     [ "initWarningFormat", "d8/d6a/message_8cpp.html#aa0b7262dc94aba9476d8669db4f3920e", null ],
     [ "msg", "d8/d6a/message_8cpp.html#aba549a028419cd48a3f373037c2c57eb", null ],
-    [ "printlex", "d8/d6a/message_8cpp.html#afeaf3cf484d932b2198498b3209f7e03", null ],
     [ "term", "d8/d6a/message_8cpp.html#ad8f29ff28015ffeb164a592dd68f89c7", null ],
     [ "va_warn", "d8/d6a/message_8cpp.html#a93c2070f58918c66ba1faccc3e182391", null ],
     [ "warn", "d8/d6a/message_8cpp.html#ab9900b0a7af62acd881e57901b0418a1", null ],
@@ -26,5 +25,7 @@ var message_8cpp =
     [ "g_warnFormat", "d8/d6a/message_8cpp.html#aad4ae1643bcdbcff1680a322e5bbae8d", null ],
     [ "g_warningStr", "d8/d6a/message_8cpp.html#a9d34be93b99045d723b7edc562d10ce4", null ],
     [ "g_warnLineFormat", "d8/d6a/message_8cpp.html#a7a6bddc99419347af9c2d3569bada867", null ],
+    [ "g_warnlogFile", "d8/d6a/message_8cpp.html#aef140dc11e587afb68a5b902eef06241", null ],
+    [ "g_warnlogTemp", "d8/d6a/message_8cpp.html#a74c872d0bf5eb507f454aaa810973144", null ],
     [ "g_warnStat", "d8/d6a/message_8cpp.html#a807b8e20fe24490244de4bfdaf531bef", null ]
 ];

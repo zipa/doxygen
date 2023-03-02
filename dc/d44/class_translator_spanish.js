@@ -95,7 +95,6 @@ var class_translator_spanish =
     [ "trEnumValue", "dc/d44/class_translator_spanish.html#a3b9e880f8c83b27182db1c18b07a7cf4", null ],
     [ "trEventDocumentation", "dc/d44/class_translator_spanish.html#adabcf117bddafac427a2211e5e08bc44", null ],
     [ "trEvents", "dc/d44/class_translator_spanish.html#a94d87ae4bb5c70b70875ac879bb46779", null ],
-    [ "trExampleDocumentation", "dc/d44/class_translator_spanish.html#ab3a6f29ce47f3e45ce1d855b6616f0c1", null ],
     [ "trExamples", "dc/d44/class_translator_spanish.html#a7d5179109df9846012eb67f81843fb67", null ],
     [ "trExamplesDescription", "dc/d44/class_translator_spanish.html#a0453293e8d3a48413220523d88df5efe", null ],
     [ "trExceptionDocumentation", "dc/d44/class_translator_spanish.html#aa4f533dacba99595a2d2b3c9c3a4844f", null ],
@@ -289,7 +288,7 @@ var class_translator_spanish =
     [ "trVariableDocumentation", "dc/d44/class_translator_spanish.html#a5dbe3b93acf1767de5d0e471a8d8382a", null ],
     [ "trVariables", "dc/d44/class_translator_spanish.html#a38491bc51e912d2d12447395c37c03e1", null ],
     [ "trVersion", "dc/d44/class_translator_spanish.html#a3909cfba65c60aea13702c9fe0c750d3", null ],
-    [ "trVhdlType", "dc/d44/class_translator_spanish.html#ae8474030d0a1661c6901b17ace1f781d", null ],
+    [ "trVhdlType", "dc/d44/class_translator_spanish.html#a77c24d1e110c64b01aedd5448eb111f2", null ],
     [ "trWarning", "dc/d44/class_translator_spanish.html#a4fc36568cb59e984945de10b059600d9", null ],
     [ "trWriteList", "dc/d44/class_translator_spanish.html#a796c325a21a61fc35a1b63c34ab7a269", null ]
 ];

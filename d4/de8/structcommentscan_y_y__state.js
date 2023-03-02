@@ -1,5 +1,6 @@
 var structcommentscan_y_y__state =
 [
+    [ "anchorTitle", "d4/de8/structcommentscan_y_y__state.html#a6b91d1a84d514248b6baec066e2161c9", null ],
     [ "blockName", "d4/de8/structcommentscan_y_y__state.html#a0fca85c16a03bc7e68d31406eda3ae04", null ],
     [ "braceCount", "d4/de8/structcommentscan_y_y__state.html#a0b039ee4026f6ffbc734cd40fe64a9e1", null ],
     [ "briefEndsAtDot", "d4/de8/structcommentscan_y_y__state.html#a1fb09cc34d0eada31e347e9d8c4bb97f", null ],
@@ -9,7 +10,6 @@ var structcommentscan_y_y__state =
     [ "current", "d4/de8/structcommentscan_y_y__state.html#aac0de57c5b17db4af7f8cc2de9d1747a", null ],
     [ "currentCmd", "d4/de8/structcommentscan_y_y__state.html#aec3329de3aa811b2c02fec3bc1418ff2", null ],
     [ "docGroup", "d4/de8/structcommentscan_y_y__state.html#a5753f8b798cae4c854b38b4920f77005", null ],
-    [ "enabledSectionFound", "d4/de8/structcommentscan_y_y__state.html#aa1e54eaf3c823c515c51ec8bd2bb4920", null ],
     [ "fileName", "d4/de8/structcommentscan_y_y__state.html#a4fa9fbc46540b7d13453655eccdaeb6c", null ],
     [ "formulaEnv", "d4/de8/structcommentscan_y_y__state.html#ab6012e857b3ebae68f4960da8924ab70", null ],
     [ "formulaNewLines", "d4/de8/structcommentscan_y_y__state.html#a08faca6ac2010b5328ebd3dc14d7f334", null ],

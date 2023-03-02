@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['outlineparserfactory_0',['OutlineParserFactory',['../da/d55/parserintf_8h.html#afda01ba4e899f06f0fbbd2b0f79fd5cf',1,'parserintf.h']]]
+  ['namespacedefset_0',['NamespaceDefSet',['../d7/d97/namespacedef_8h.html#aea7188d64c68263cd52988e34340554e',1,'namespacedef.h']]],
+  ['nodeblocklist_1',['NodeBlockList',['../dc/d7f/class_template_block_context.html#a5fbe4157705c9567ce4901e8158c5028',1,'TemplateBlockContext']]]
 ];

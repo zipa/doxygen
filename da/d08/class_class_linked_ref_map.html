@@ -104,16 +104,14 @@ $(document).ready(function(){initNavTree('da/d08/class_class_linked_ref_map.html
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dfb/class_class_linked_ref_map__inherit__graph.svg" width="214" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dfb/class_class_linked_ref_map__inherit__graph.svg" width="214" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for ClassLinkedRefMap:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d35/class_class_linked_ref_map__coll__graph.svg" width="214" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d35/class_class_linked_ref_map__coll__graph.svg" width="214" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -222,7 +220,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
 <div class="line"><span class="lineno">   31</span>  <span class="keywordtype">bool</span> hideUndocClasses = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(HIDE_UNDOC_CLASSES);</div>
 <div class="line"><span class="lineno">   32</span>  <span class="keywordtype">bool</span> extractLocalClasses = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(EXTRACT_LOCAL_CLASSES);</div>
-<div class="line"><span class="lineno">   33</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">   33</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
 <div class="line"><span class="lineno">   34</span>  {</div>
 <div class="line"><span class="lineno">   35</span>    <span class="keywordflow">if</span> (!cd-&gt;isAnonymous() &amp;&amp;</div>
 <div class="line"><span class="lineno">   36</span>        (filter==0 || *filter==cd-&gt;compoundType())</div>
@@ -245,7 +243,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02055">ClassDefImpl::writeSummaryLinks()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00747">FileDefImpl::writeSummaryLinks()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01051">GroupDefImpl::writeSummaryLinks()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00817">NamespaceDefImpl::writeSummaryLinks()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d89/classdef_8cpp_source.html#l02056">ClassDefImpl::writeSummaryLinks()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00720">FileDefImpl::writeSummaryLinks()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l01051">GroupDefImpl::writeSummaryLinks()</a>, and <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00817">NamespaceDefImpl::writeSummaryLinks()</a>.</p>
 
 </div>
 </div>
@@ -291,12 +289,12 @@ Additional Inherited Members</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   55</span>{</div>
 <div class="line"><span class="lineno">   56</span>  <span class="keywordtype">bool</span> extractPrivate = <a class="code hl_define" href="../../db/d16/config_8h.html#a5373d0332a31f16ad7a42037733e8c79">Config_getBool</a>(EXTRACT_PRIVATE);</div>
 <div class="line"><span class="lineno">   57</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">   58</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">   58</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
 <div class="line"><span class="lineno">   59</span>  {</div>
 <div class="line"><span class="lineno">   60</span>    <span class="comment">//printf(&quot;  ClassLinkedRefMap::writeDeclaration for %s\n&quot;,cd-&gt;name().data());</span></div>
 <div class="line"><span class="lineno">   61</span>    <span class="keywordflow">if</span> (!cd-&gt;isAnonymous() &amp;&amp;</div>
 <div class="line"><span class="lineno">   62</span>        !cd-&gt;isExtension() &amp;&amp;</div>
-<div class="line"><span class="lineno">   63</span>        (cd-&gt;protection()!=<a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a> || extractPrivate) &amp;&amp;</div>
+<div class="line"><span class="lineno">   63</span>        (cd-&gt;protection()!=Protection::Private || extractPrivate) &amp;&amp;</div>
 <div class="line"><span class="lineno">   64</span>        (filter==0 || *filter==cd-&gt;compoundType())</div>
 <div class="line"><span class="lineno">   65</span>       )</div>
 <div class="line"><span class="lineno">   66</span>    {</div>
@@ -306,14 +304,13 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">   70</span>  }</div>
 <div class="line"><span class="lineno">   71</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>) ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a7c8d844390c3ab106b675144baa48fc7">endMemberList</a>();</div>
 <div class="line"><span class="lineno">   72</span>}</div>
-<div class="ttc" id="aclass_output_list_html_a7c8d844390c3ab106b675144baa48fc7"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a7c8d844390c3ab106b675144baa48fc7">OutputList::endMemberList</a></div><div class="ttdeci">void endMemberList()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00257">outputlist.h:257</a></div></div>
+<div class="ttc" id="aclass_output_list_html_a7c8d844390c3ab106b675144baa48fc7"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a7c8d844390c3ab106b675144baa48fc7">OutputList::endMemberList</a></div><div class="ttdeci">void endMemberList()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00637">outputlist.h:637</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00033">qcstring.h:33</a></div></div>
-<div class="ttc" id="atypes_8h_html_a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166"><div class="ttname"><a href="../../d9/d49/types_8h.html#a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166">Private</a></div><div class="ttdeci">@ Private</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00026">types.h:26</a></div></div>
 <div class="ttc" id="autil_8cpp_html_a7141f237b2648c631ce5b73215683565"><div class="ttname"><a href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a></div><div class="ttdeci">bool found</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2d/util_8cpp_source.html#l00962">util.cpp:962</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00257">OutputList::endMemberList()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Private</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00637">OutputList::endMemberList()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, and <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00772">NamespaceDefImpl::writeClassDeclarations()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00670">FileDefImpl::writeClassDeclarations()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l00960">GroupDefImpl::writeClasses()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01991">ClassDefImpl::writeNestedClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00772">NamespaceDefImpl::writeClassDeclarations()</a>, <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00643">FileDefImpl::writeClassDeclarations()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l00960">GroupDefImpl::writeClasses()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01992">ClassDefImpl::writeNestedClasses()</a>.</p>
 
 </div>
 </div>
@@ -353,7 +350,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">   81</span> </div>
 <div class="line"><span class="lineno">   82</span>  <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
 <div class="line"><span class="lineno">   83</span> </div>
-<div class="line"><span class="lineno">   84</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *<span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno">   84</span>  <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;cd : *this)</div>
 <div class="line"><span class="lineno">   85</span>  {</div>
 <div class="line"><span class="lineno">   86</span>    <span class="comment">//printf(&quot;%s:writeDocumentation() %p linkable=%d embedded=%d container=%p partOfGroups=%zu\n&quot;,</span></div>
 <div class="line"><span class="lineno">   87</span>    <span class="comment">//  cd-&gt;name().data(),cd-&gt;getOuterScope(),cd-&gt;isLinkableInProject(),cd-&gt;isEmbeddedInOuterScope(),</span></div>
@@ -372,7 +369,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  100</span>        ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a2203589f0bc276cb3ba01f529b9536a9">writeRuler</a>();</div>
 <div class="line"><span class="lineno">  101</span>        ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#a08659f3995b246a54846fbcd5da928bd">startGroupHeader</a>();</div>
 <div class="line"><span class="lineno">  102</span>        ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#adfdcf2ba925f05be8beb8cf43deb168a">parseText</a>(fortranOpt?<a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#a96a7cdf0b35d6c092875b364bac5f2cf">trTypeDocumentation</a>():</div>
-<div class="line"><span class="lineno">  103</span>            <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;<a class="code hl_function" href="../../d8/dfb/class_translator.html#a7f2ce6d3f52323d11e2ec9021c1daff1">trClassDocumentation</a>());</div>
+<div class="line"><span class="lineno">  103</span>            <a class="code hl_variable" href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a>-&gt;trClassDocumentation());</div>
 <div class="line"><span class="lineno">  104</span>        ol.<a class="code hl_function" href="../../df/dc8/class_output_list.html#aa655c0592e136ba962ac45bb69482638">endGroupHeader</a>();</div>
 <div class="line"><span class="lineno">  105</span>        <a class="code hl_variable" href="../../df/d2d/util_8cpp.html#a7141f237b2648c631ce5b73215683565">found</a>=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno">  106</span>      }</div>
@@ -380,18 +377,17 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  108</span>    }</div>
 <div class="line"><span class="lineno">  109</span>  }</div>
 <div class="line"><span class="lineno">  110</span>}</div>
-<div class="ttc" id="aclass_output_list_html_a08659f3995b246a54846fbcd5da928bd"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a08659f3995b246a54846fbcd5da928bd">OutputList::startGroupHeader</a></div><div class="ttdeci">void startGroupHeader(int extraLevels=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00227">outputlist.h:227</a></div></div>
-<div class="ttc" id="aclass_output_list_html_a2203589f0bc276cb3ba01f529b9536a9"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a2203589f0bc276cb3ba01f529b9536a9">OutputList::writeRuler</a></div><div class="ttdeci">void writeRuler()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00295">outputlist.h:295</a></div></div>
-<div class="ttc" id="aclass_output_list_html_aa655c0592e136ba962ac45bb69482638"><div class="ttname"><a href="../../df/dc8/class_output_list.html#aa655c0592e136ba962ac45bb69482638">OutputList::endGroupHeader</a></div><div class="ttdeci">void endGroupHeader(int extraLevels=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00229">outputlist.h:229</a></div></div>
-<div class="ttc" id="aclass_output_list_html_adfdcf2ba925f05be8beb8cf43deb168a"><div class="ttname"><a href="../../df/dc8/class_output_list.html#adfdcf2ba925f05be8beb8cf43deb168a">OutputList::parseText</a></div><div class="ttdeci">void parseText(const QCString &amp;textStr)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/outputlist_8cpp_source.html#l00222">outputlist.cpp:222</a></div></div>
-<div class="ttc" id="aclass_translator_html_a7f2ce6d3f52323d11e2ec9021c1daff1"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a7f2ce6d3f52323d11e2ec9021c1daff1">Translator::trClassDocumentation</a></div><div class="ttdeci">virtual QCString trClassDocumentation()=0</div></div>
+<div class="ttc" id="aclass_output_list_html_a08659f3995b246a54846fbcd5da928bd"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a08659f3995b246a54846fbcd5da928bd">OutputList::startGroupHeader</a></div><div class="ttdeci">void startGroupHeader(int extraLevels=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00607">outputlist.h:607</a></div></div>
+<div class="ttc" id="aclass_output_list_html_a2203589f0bc276cb3ba01f529b9536a9"><div class="ttname"><a href="../../df/dc8/class_output_list.html#a2203589f0bc276cb3ba01f529b9536a9">OutputList::writeRuler</a></div><div class="ttdeci">void writeRuler()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00675">outputlist.h:675</a></div></div>
+<div class="ttc" id="aclass_output_list_html_aa655c0592e136ba962ac45bb69482638"><div class="ttname"><a href="../../df/dc8/class_output_list.html#aa655c0592e136ba962ac45bb69482638">OutputList::endGroupHeader</a></div><div class="ttdeci">void endGroupHeader(int extraLevels=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db9/outputlist_8h_source.html#l00609">outputlist.h:609</a></div></div>
+<div class="ttc" id="aclass_output_list_html_adfdcf2ba925f05be8beb8cf43deb168a"><div class="ttname"><a href="../../df/dc8/class_output_list.html#adfdcf2ba925f05be8beb8cf43deb168a">OutputList::parseText</a></div><div class="ttdeci">void parseText(const QCString &amp;textStr)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/outputlist_8cpp_source.html#l00206">outputlist.cpp:206</a></div></div>
 <div class="ttc" id="aclass_translator_html_a96a7cdf0b35d6c092875b364bac5f2cf"><div class="ttname"><a href="../../d8/dfb/class_translator.html#a96a7cdf0b35d6c092875b364bac5f2cf">Translator::trTypeDocumentation</a></div><div class="ttdeci">virtual QCString trTypeDocumentation()=0</div></div>
 <div class="ttc" id="alanguage_8cpp_html_a07b18e39f7c5156cd370829e7e6f8534"><div class="ttname"><a href="../../d2/d48/language_8cpp.html#a07b18e39f7c5156cd370829e7e6f8534">theTranslator</a></div><div class="ttdeci">Translator * theTranslator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/language_8cpp_source.html#l00070">language.cpp:70</a></div></div>
 <div class="ttc" id="aqcstring_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00036">qcstring.h:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00229">OutputList::endGroupHeader()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../db/dd8/outputlist_8cpp_source.html#l00222">OutputList::parseText()</a>, <a class="el" href="../../d5/dcc/class_definition.html#ab91d34cb9d5a993d3cae3356bc97232e">Definition::partOfGroups()</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00227">OutputList::startGroupHeader()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#a7f2ce6d3f52323d11e2ec9021c1daff1">Translator::trClassDocumentation()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a96a7cdf0b35d6c092875b364bac5f2cf">Translator::trTypeDocumentation()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00295">OutputList::writeRuler()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00609">OutputList::endGroupHeader()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l00962">found</a>, <a class="el" href="../../db/dd8/outputlist_8cpp_source.html#l00206">OutputList::parseText()</a>, <a class="el" href="../../d5/dcc/class_definition.html#ab91d34cb9d5a993d3cae3356bc97232e">Definition::partOfGroups()</a>, <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00607">OutputList::startGroupHeader()</a>, <a class="el" href="../../d2/d48/language_8cpp_source.html#l00070">theTranslator</a>, <a class="el" href="../../d8/dfb/class_translator.html#a7f2ce6d3f52323d11e2ec9021c1daff1">Translator::trClassDocumentation()</a>, <a class="el" href="../../d8/dfb/class_translator.html#a96a7cdf0b35d6c092875b364bac5f2cf">Translator::trTypeDocumentation()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>, and <a class="el" href="../../d2/db9/outputlist_8h_source.html#l00675">OutputList::writeRuler()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00682">FileDefImpl::writeInlineClasses()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l00972">GroupDefImpl::writeInlineClasses()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00782">NamespaceDefImpl::writeInlineClasses()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01997">ClassDefImpl::writeInlineClasses()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/ddc/filedef_8cpp_source.html#l00655">FileDefImpl::writeInlineClasses()</a>, <a class="el" href="../../d6/d42/groupdef_8cpp_source.html#l00972">GroupDefImpl::writeInlineClasses()</a>, <a class="el" href="../../d7/d1c/namespacedef_8cpp_source.html#l00782">NamespaceDefImpl::writeInlineClasses()</a>, and <a class="el" href="../../de/d89/classdef_8cpp_source.html#l01998">ClassDefImpl::writeInlineClasses()</a>.</p>
 
 </div>
 </div>

@@ -95,7 +95,6 @@ var class_translator_bulgarian =
     [ "trEnumValue", "da/dbb/class_translator_bulgarian.html#a881b5a993e89d301e0e626a15d8c56ee", null ],
     [ "trEventDocumentation", "da/dbb/class_translator_bulgarian.html#a6832d03bca22c15966a710f8208a900e", null ],
     [ "trEvents", "da/dbb/class_translator_bulgarian.html#abebfbad857526531e555f57dadd16552", null ],
-    [ "trExampleDocumentation", "da/dbb/class_translator_bulgarian.html#a8eb04ff7ca2c9b746314d48ff5390a66", null ],
     [ "trExamples", "da/dbb/class_translator_bulgarian.html#a252218b63ffcdd9dcb20c7310dae3f8b", null ],
     [ "trExamplesDescription", "da/dbb/class_translator_bulgarian.html#ad7bae7e7aa2562e199a637c75654ae8f", null ],
     [ "trExceptionDocumentation", "da/dbb/class_translator_bulgarian.html#afa4ede17c7e6bdf09fa0d187ba1a893a", null ],
@@ -287,7 +286,7 @@ var class_translator_bulgarian =
     [ "trVariableDocumentation", "da/dbb/class_translator_bulgarian.html#ad6475836c4931f936e8e34401dc6bd16", null ],
     [ "trVariables", "da/dbb/class_translator_bulgarian.html#ab054c0db61aad563096f98f9ee7de1fa", null ],
     [ "trVersion", "da/dbb/class_translator_bulgarian.html#affb540f040f25da5e6c0c282bf28518d", null ],
-    [ "trVhdlType", "da/dbb/class_translator_bulgarian.html#a7dac9893f9eace7e8cb9435ab31af1ad", null ],
+    [ "trVhdlType", "da/dbb/class_translator_bulgarian.html#abd0af23f3a47322481c53f308f6c234b", null ],
     [ "trWarning", "da/dbb/class_translator_bulgarian.html#ae764b0a68466173ba0bb2203d89e96ce", null ],
     [ "trWriteList", "da/dbb/class_translator_bulgarian.html#ad6d43e5c3267fc8b2e08c697bfb3a4fb", null ]
 ];

@@ -106,16 +106,14 @@ $(document).ready(function(){initNavTree('db/d7c/utf8_8h.html','../../'); initRe
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dbd/utf8_8h__incl.svg" width="216" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dbd/utf8_8h__incl.svg" width="216" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d1e/utf8_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d1e/utf8_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../db/d7c/utf8_8h_source.html">Go to the source code of this file.</a></p>
@@ -149,6 +147,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a8c217509aa52433aa63d199ef77968d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/utf8_8h.html#a8c217509aa52433aa63d199ef77968d5">isUTF8NonBreakableSpace</a> (const char *input)</td></tr>
 <tr class="memdesc:a8c217509aa52433aa63d199ef77968d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the first character pointed at by input is a non-breakable whitespace character.  <br /></td></tr>
 <tr class="separator:a8c217509aa52433aa63d199ef77968d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562d68eff947d2e12b2b56800825e552"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/utf8_8h.html#a562d68eff947d2e12b2b56800825e552">isUTF8PunctuationCharacter</a> (uint32_t unicode)</td></tr>
+<tr class="memdesc:a562d68eff947d2e12b2b56800825e552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the given Unicode character represents a punctuation character.  <br /></td></tr>
+<tr class="separator:a562d68eff947d2e12b2b56800825e552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Various UTF8 related helper functions. </p>
@@ -184,7 +185,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00142">asciiToLower()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00152">caseConvert()</a>, and <a class="el" href="../../db/dca/caseconvert_8h_source.html#l01505">convertUnicodeToLower()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d14/index_8cpp_source.html#l02744">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02856">Index::addFileMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02808">Index::addNamespaceMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00242">createJavaScriptSearchIndex()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00235">QCString::lower()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00044">searchId()</a>, and <a class="el" href="../../dc/dd6/filename_8h_source.html#l00059">FileNameFn::searchKey()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d14/index_8cpp_source.html#l02744">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02856">Index::addFileMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02808">Index::addNamespaceMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00242">createJavaScriptSearchIndex()</a>, <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00059">AnchorGenerator::generate()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00229">QCString::lower()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00044">searchId()</a>, and <a class="el" href="../../dc/dd6/filename_8h_source.html#l00059">FileNameFn::searchKey()</a>.</p>
 
 </div>
 </div>
@@ -215,7 +216,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00147">asciiToUpper()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00152">caseConvert()</a>, and <a class="el" href="../../db/dca/caseconvert_8h_source.html#l00012">convertUnicodeToUpper()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01310">FilterAlphaIndex::determineSortKey()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00240">QCString::upper()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l02167">writeAlphabeticalClassList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d54/template_8cpp_source.html#l01292">FilterAlphaIndex::determineSortKey()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00234">QCString::upper()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l02167">writeAlphabeticalClassList()</a>.</p>
 
 </div>
 </div>
@@ -257,6 +258,8 @@ Functions</h2></td></tr>
 <div class="ttc" id="autf8_8cpp_html_ac0c19c2bb475bc6f27dbf06345c865a3"><div class="ttname"><a href="../../d2/db5/utf8_8cpp.html#ac0c19c2bb475bc6f27dbf06345c865a3">getUTF8CharAt</a></div><div class="ttdeci">std::string getUTF8CharAt(const std::string &amp;input, size_t pos)</div><div class="ttdoc">Returns the UTF8 character found at byte position pos in the input string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db5/utf8_8cpp_source.html#l00127">utf8.cpp:127</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00069">convertUTF8CharToUnicode()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00127">getUTF8CharAt()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00059">AnchorGenerator::generate()</a>.</p>
 
 </div>
 </div>
@@ -300,7 +303,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00023">getUTF8CharNumBytes()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d14/index_8cpp_source.html#l02744">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02856">Index::addFileMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02808">Index::addNamespaceMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00242">createJavaScriptSearchIndex()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01310">FilterAlphaIndex::determineSortKey()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00135">getUnicodeForUTF8CharAt()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l02167">writeAlphabeticalClassList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d14/index_8cpp_source.html#l02744">Index::addClassMemberNameToIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02856">Index::addFileMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00122">addMemberToSearchIndex()</a>, <a class="el" href="../../db/d14/index_8cpp_source.html#l02808">Index::addNamespaceMemberNameToIndex()</a>, <a class="el" href="../../d9/d2f/searchindex__js_8cpp_source.html#l00242">createJavaScriptSearchIndex()</a>, <a class="el" href="../../df/d54/template_8cpp_source.html#l01292">FilterAlphaIndex::determineSortKey()</a>, <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00059">AnchorGenerator::generate()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00135">getUnicodeForUTF8CharAt()</a>, and <a class="el" href="../../db/d14/index_8cpp_source.html#l02167">writeAlphabeticalClassList()</a>.</p>
 
 </div>
 </div>
@@ -352,7 +355,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   50</span>  <span class="keywordflow">return</span> num;</div>
 <div class="line"><span class="lineno">   51</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03341">Markdown::detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03564">escapeCharsInString()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00127">getUTF8CharAt()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05825">nextUTF8CharPosition()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00197">writeUTF8Char()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l07055">detab()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l03495">escapeCharsInString()</a>, <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00059">AnchorGenerator::generate()</a>, <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00127">getUTF8CharAt()</a>, <a class="el" href="../../df/d2d/util_8cpp_source.html#l05323">nextUTF8CharPosition()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00197">writeUTF8Char()</a>.</p>
 
 </div>
 </div>
@@ -396,7 +399,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dca/caseconvert_8h_source.html#l01505">convertUnicodeToLower()</a>, and <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00069">convertUTF8CharToUnicode()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00492">DefinitionImpl::_setBriefDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00507">DefinitionImpl::_setBriefDescription()</a>.</p>
 
 </div>
 </div>
@@ -425,7 +428,38 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  231</span>          <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(input[1])==0xA0) ? 2 : 0;</div>
 <div class="line"><span class="lineno">  232</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../de/d04/markdown_8cpp_source.html#l03341">Markdown::detab()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d2d/util_8cpp_source.html#l07055">detab()</a>.</p>
+
+</div>
+</div>
+<a id="a562d68eff947d2e12b2b56800825e552" name="a562d68eff947d2e12b2b56800825e552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562d68eff947d2e12b2b56800825e552">&#9670;&#160;</a></span>isUTF8PunctuationCharacter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isUTF8PunctuationCharacter </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>unicode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the given Unicode character represents a punctuation character. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00234">234</a> of file <a class="el" href="../../d2/db5/utf8_8cpp_source.html">utf8.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  235</span>{</div>
+<div class="line"><span class="lineno">  236</span>  <span class="keywordtype">bool</span> b = <a class="code hl_function" href="../../db/dca/caseconvert_8h.html#a13534af4c55105afe07d4590d28b3599">isPunctuationCharacter</a>(unicode);</div>
+<div class="line"><span class="lineno">  237</span>  <span class="keywordflow">return</span> b;</div>
+<div class="line"><span class="lineno">  238</span>}</div>
+<div class="ttc" id="acaseconvert_8h_html_a13534af4c55105afe07d4590d28b3599"><div class="ttname"><a href="../../db/dca/caseconvert_8h.html#a13534af4c55105afe07d4590d28b3599">isPunctuationCharacter</a></div><div class="ttdeci">bool isPunctuationCharacter(uint32_t code)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dca/caseconvert_8h_source.html#l02906">caseconvert.h:2906</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/dca/caseconvert_8h_source.html#l02906">isPunctuationCharacter()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dd7/anchor_8cpp_source.html#l00059">AnchorGenerator::generate()</a>.</p>
 
 </div>
 </div>
@@ -453,7 +487,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  215</span>  <span class="keywordflow">return</span> !input.empty() &amp;&amp; (<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(input[input.length()-1])&amp;0xC0)==0x80;</div>
 <div class="line"><span class="lineno">  216</span>}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00492">DefinitionImpl::_setBriefDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dea/definition_8cpp_source.html#l00507">DefinitionImpl::_setBriefDescription()</a>.</p>
 
 </div>
 </div>
@@ -499,11 +533,11 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  208</span>  t.<a class="code hl_function" href="../../d3/d30/class_text_stream.html#aaa78941b7f04d95ca3be7d11073828f0">write</a>(s,len);</div>
 <div class="line"><span class="lineno">  209</span>  <span class="keywordflow">return</span> s+len;</div>
 <div class="line"><span class="lineno">  210</span>}</div>
-<div class="ttc" id="aclass_text_stream_html_aaa78941b7f04d95ca3be7d11073828f0"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#aaa78941b7f04d95ca3be7d11073828f0">TextStream::write</a></div><div class="ttdeci">void write(const char *buf, size_t len)</div><div class="ttdoc">Adds a array of character to the stream.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00201">textstream.h:201</a></div></div>
+<div class="ttc" id="aclass_text_stream_html_aaa78941b7f04d95ca3be7d11073828f0"><div class="ttname"><a href="../../d3/d30/class_text_stream.html#aaa78941b7f04d95ca3be7d11073828f0">TextStream::write</a></div><div class="ttdeci">void write(const char *buf, size_t len)</div><div class="ttdoc">Adds a array of character to the stream.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00203">textstream.h:203</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00023">getUTF8CharNumBytes()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00201">TextStream::write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db5/utf8_8cpp_source.html#l00023">getUTF8CharNumBytes()</a>, and <a class="el" href="../../d4/d7d/textstream_8h_source.html#l00203">TextStream::write()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00131">RTFCodeGenerator::codify()</a>, <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00706">HtmlCodeGenerator::codify()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00148">ManCodeGenerator::codify()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00396">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00368">HtmlDocVisitor::writeObfuscatedMailAddress()</a>, and <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00116">writeXMLCodeString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d6e/htmlgen_8cpp_source.html#l00709">HtmlCodeGenerator::codify()</a>, <a class="el" href="../../d7/de7/mangen_8cpp_source.html#l00159">ManCodeGenerator::codify()</a>, <a class="el" href="../../d0/d9c/rtfgen_8cpp_source.html#l00137">RTFCodeGenerator::codify()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00397">HtmlDocVisitor::operator()()</a>, <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l00369">HtmlDocVisitor::writeObfuscatedMailAddress()</a>, and <a class="el" href="../../d0/dc3/xmlgen_8cpp_source.html#l00118">writeXMLCodeString()</a>.</p>
 
 </div>
 </div>

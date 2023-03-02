@@ -64,6 +64,7 @@ var menudata={children:[
 {text:"p",url:"namespacemembers_func.html#index_p"},
 {text:"r",url:"namespacemembers_func.html#index_r"},
 {text:"s",url:"namespacemembers_func.html#index_s"},
+{text:"t",url:"namespacemembers_func.html#index_t"},
 {text:"u",url:"namespacemembers_func.html#index_u"},
 {text:"w",url:"namespacemembers_func.html#index_w"}]},
 {text:"Variables",url:"namespacemembers_vars.html",children:[
@@ -203,6 +204,7 @@ var menudata={children:[
 {text:"l",url:"functions_type.html#index_l"},
 {text:"m",url:"functions_type.html#index_m"},
 {text:"n",url:"functions_type.html#index_n"},
+{text:"o",url:"functions_type.html#index_o"},
 {text:"p",url:"functions_type.html#index_p"},
 {text:"r",url:"functions_type.html#index_r"},
 {text:"s",url:"functions_type.html#index_s"},
@@ -253,7 +255,7 @@ var menudata={children:[
 {text:"v",url:"functions_eval_v.html#index_v"},
 {text:"w",url:"functions_eval_w.html#index_w"},
 {text:"x",url:"functions_eval_x.html#index_x"}]},
-{text:"Related Functions",url:"functions_rela.html",children:[
+{text:"Related Symbols",url:"functions_rela.html",children:[
 {text:"b",url:"functions_rela.html#index_b"},
 {text:"c",url:"functions_rela.html#index_c"},
 {text:"d",url:"functions_rela.html#index_d"},
@@ -350,6 +352,7 @@ var menudata={children:[
 {text:"d",url:"globals_type.html#index_d"},
 {text:"e",url:"globals_type.html#index_e"},
 {text:"f",url:"globals_type.html#index_f"},
+{text:"h",url:"globals_type.html#index_h"},
 {text:"i",url:"globals_type.html#index_i"},
 {text:"j",url:"globals_type.html#index_j"},
 {text:"k",url:"globals_type.html#index_k"},

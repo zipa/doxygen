@@ -1,6 +1,6 @@
 var class_r_t_f_code_generator =
 [
-    [ "RTFCodeGenerator", "d2/df7/class_r_t_f_code_generator.html#a6a93bf6dba5720123a337546d6e64a6d", null ],
+    [ "RTFCodeGenerator", "d2/df7/class_r_t_f_code_generator.html#a86dfb5f62e2531755d74de099a120b19", null ],
     [ "codify", "d2/df7/class_r_t_f_code_generator.html#a759358f3fa2895eb5fb467d17a73c81e", null ],
     [ "endCodeFragment", "d2/df7/class_r_t_f_code_generator.html#a740a8939d1130e637249a2bb3c1b316f", null ],
     [ "endCodeLine", "d2/df7/class_r_t_f_code_generator.html#a167d4b5df977d6a8f62569f2b8c343c4", null ],
@@ -8,6 +8,7 @@ var class_r_t_f_code_generator =
     [ "rtf_Code_DepthStyle", "d2/df7/class_r_t_f_code_generator.html#a5b9f9d4a335e0e68bad617fdceb9e318", null ],
     [ "setIndentLevel", "d2/df7/class_r_t_f_code_generator.html#a8f35cbfdc0b306326588c24eb4d10a35", null ],
     [ "setSourceFileName", "d2/df7/class_r_t_f_code_generator.html#ac302b174a0b6cd7df8b60723547a5ce0", null ],
+    [ "setTextStream", "d2/df7/class_r_t_f_code_generator.html#ab9e521914ea828acf5b5850541d643c8", null ],
     [ "startCodeFragment", "d2/df7/class_r_t_f_code_generator.html#a65bc8d9bed014069bec5fe556835a7d3", null ],
     [ "startCodeLine", "d2/df7/class_r_t_f_code_generator.html#ab41928bd43fcd499c2f0205c13ebeb3f", null ],
     [ "startFontClass", "d2/df7/class_r_t_f_code_generator.html#a79a64f81689c0e34071c17b53ab06e4b", null ],
@@ -21,5 +22,5 @@ var class_r_t_f_code_generator =
     [ "m_doxyCodeLineOpen", "d2/df7/class_r_t_f_code_generator.html#ab348c86fa73f25281059dbe00a817de8", null ],
     [ "m_indentLevel", "d2/df7/class_r_t_f_code_generator.html#a921dd4db8b6b1ac387ab437acba47707", null ],
     [ "m_sourceFileName", "d2/df7/class_r_t_f_code_generator.html#a697b91aac1591633a24b3cb8cc0f00c7", null ],
-    [ "m_t", "d2/df7/class_r_t_f_code_generator.html#a02502571f335c68d58a32ec3b552fbc9", null ]
+    [ "m_t", "d2/df7/class_r_t_f_code_generator.html#afcd69ebb04780edf96653d5210e3e93a", null ]
 ];

@@ -47,6 +47,7 @@ var namespaces_dup =
         [ "Total", "d4/d3e/namespace_file_member_highlight.html#a399c1e21b2b7261ec5f1a5d7ec196550a7dfd6608e2a5d7755e8597463735a1f3", null ]
       ] ]
     ] ],
+    [ "fmt", "d4/d6d/namespacefmt.html", "d4/d6d/namespacefmt" ],
     [ "IndexIntf", "dc/d92/namespace_index_intf.html", "dc/d92/namespace_index_intf" ],
     [ "NamespaceMemberHighlight", "da/d4d/namespace_namespace_member_highlight.html", [
       [ "Enum", "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7c", [
@@ -61,6 +62,8 @@ var namespaces_dup =
         [ "Total", "da/d4d/namespace_namespace_member_highlight.html#a021f146e1894f62e142ba38537ccfb7ca0871415d5e1675ebcdb37b458fc8b67f", null ]
       ] ]
     ] ],
+    [ "OutputCodeIntf", "d5/de5/namespace_output_code_intf.html", "d5/de5/namespace_output_code_intf" ],
+    [ "OutputGenIntf", "dc/df5/namespace_output_gen_intf.html", "dc/df5/namespace_output_gen_intf" ],
     [ "Portable", "d7/d6f/namespace_portable.html", [
       [ "checkForExecutable", "d7/d6f/namespace_portable.html#a39228795dec07d8121645b0348e91712", null ],
       [ "commandExtension", "d7/d6f/namespace_portable.html#acf75def6ec394875d4a3c380ffc301b7", null ],
@@ -78,7 +81,7 @@ var namespaces_dup =
       [ "pathListSeparator", "d7/d6f/namespace_portable.html#a33ec52ac55c4d58e0748239920ee3e14", null ],
       [ "pathSeparator", "d7/d6f/namespace_portable.html#a0f30be3f0aed0b88804816f3e6310ee4", null ],
       [ "pclose", "d7/d6f/namespace_portable.html#a6cde8cab8c3dc3397ea5c6030fbf6e84", null ],
-      [ "pid", "d7/d6f/namespace_portable.html#a5944f5ca01ff6e756c447e11583b73a0", null ],
+      [ "pid", "d7/d6f/namespace_portable.html#a4e8eda17264bc9f97c4d106882c8d874", null ],
       [ "popen", "d7/d6f/namespace_portable.html#a15b92ac03be9e8f4d95d5e881342d83c", null ],
       [ "recodeUtf8StringToW", "d7/d6f/namespace_portable.html#a724f5508f1314342da28cc51b867431b", null ],
       [ "setenv", "d7/d6f/namespace_portable.html#abd244447df22d110ad410b69c357fdf3", null ],
@@ -89,7 +92,15 @@ var namespaces_dup =
       [ "unlink", "d7/d6f/namespace_portable.html#a394e935b6fd1899b26f8987f89a4cbfb", null ],
       [ "unsetenv", "d7/d6f/namespace_portable.html#ac2e29048cffc72c3bed439cff5b02cd4", null ]
     ] ],
+    [ "PortugueseTranslatorUtils", "dc/d6f/namespace_portuguese_translator_utils.html", [
+      [ "isClassMemberHighlightMasculine", "dc/d6f/namespace_portuguese_translator_utils.html#a81439ef1e5570b8ba0fc50f4819f43ba", null ],
+      [ "isFileMemberHighlightMasculine", "dc/d6f/namespace_portuguese_translator_utils.html#ab5299ba7903c9a3401dc7335f5f3ac57", null ],
+      [ "isNamespaceMemberHighlightMasculine", "dc/d6f/namespace_portuguese_translator_utils.html#a813edc55b09a4390e262ac196a2ae756", null ]
+    ] ],
     [ "reg", "db/d35/namespacereg.html", "db/d35/namespacereg" ],
     [ "SearchIndexMethods", "d1/d43/namespace_search_index_methods.html", "d1/d43/namespace_search_index_methods" ],
+    [ "Trace", "d3/db9/namespace_trace.html", [
+      [ "trunc", "d3/db9/namespace_trace.html#a1859b0ba7161e012fecbd71dd4ec64d6", null ]
+    ] ],
     [ "vhdl", "d8/daf/namespacevhdl.html", "d8/daf/namespacevhdl" ]
 ];

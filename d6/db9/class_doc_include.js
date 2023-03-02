@@ -15,7 +15,8 @@ var class_doc_include =
       [ "RtfInclude", "d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafafca5fb43380888ff488a49bfc4f32cfd", null ],
       [ "ManInclude", "d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafa135c7c87665378652c597d57710d60a1", null ],
       [ "DocbookInclude", "d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafaef9a97c613611ae895729e6f78c1fc83", null ],
-      [ "XmlInclude", "d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafadb264a40d447ec379aa1e80af933cf68", null ]
+      [ "XmlInclude", "d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafadb264a40d447ec379aa1e80af933cf68", null ],
+      [ "SnippetTrimLeft", "d6/db9/class_doc_include.html#a72aa0fd397546547aadf356348ff3eafa5845e74521faace8fa996f909ee95cf4", null ]
     ] ],
     [ "DocInclude", "d6/db9/class_doc_include.html#af01954a01a3244efd69f1ed7044ef4e8", null ],
     [ "blockId", "d6/db9/class_doc_include.html#a0a32ad9c12a12a6664dd90ba2c141c26", null ],
@@ -25,7 +26,7 @@ var class_doc_include =
     [ "file", "d6/db9/class_doc_include.html#ad2dce3078cd4a33bf3923066b2c79957", null ],
     [ "isBlock", "d6/db9/class_doc_include.html#a135bf24f61094b5ccd0f11184a689105", null ],
     [ "isExample", "d6/db9/class_doc_include.html#af001e0f412f5189fc3f7105b402996d6", null ],
-    [ "parse", "d6/db9/class_doc_include.html#a2be994f3b58d8cabcbc775b0286441ab", null ],
+    [ "parse", "d6/db9/class_doc_include.html#a191446e0b57311d58cf1ef51a91417ee", null ],
     [ "text", "d6/db9/class_doc_include.html#ab2a402fcaf6d3c4ecce0cd7647c0e339", null ],
     [ "type", "d6/db9/class_doc_include.html#a8e9f5167c504937dedc7ffac6a454514", null ],
     [ "m_blockId", "d6/db9/class_doc_include.html#a73c26f729f290f5b655be52da766d675", null ],
